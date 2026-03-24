@@ -284,7 +284,7 @@ width: 100%;
 
 #footer{
 background-color: #FFF4E7;
-width: 1440px;
+width: 100%;
 height: 100px;
 justify-content: center;
 text-align: center;
@@ -300,6 +300,7 @@ text-align: center;
 margin-top: 38px;
 align-items: center;
 padding-top: 38px;
+
 }
 
 /* footer */
@@ -349,6 +350,10 @@ gap: 50px;
         margin-top: 20px;
         margin-left: 20px;
     }
+
+    #footer{
+        justify-items: center;
+    }
 }
 
 /*  */
@@ -383,6 +388,10 @@ grid-template-columns: repeat(1, 1fr);
       #experience-badge{
         margin-top: 20px;
         margin-left: 20px;
+    }
+
+    #footer{
+        justify-items: center;
     }
 }
 
